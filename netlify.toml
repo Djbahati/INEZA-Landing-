@@ -1,0 +1,18 @@
+# Netlify configuration — INEZA AI SYSTEM
+# Committed here so build settings live with the code and override any stale
+# values configured in the Netlify UI.
+
+[build]
+  # The site is at the root of this repository, not in a subdirectory.
+  base = "."
+  # Install dependencies explicitly: the build needs devDependencies (vite,
+  # @vitejs/plugin-react, tailwindcss) which are not present in every build
+  # environment, and `vite build` fails with "vite: not found" without them.
+  command = "npm ci --include=dev --no-audit --no-fund && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Redirects (www -> apex, SPA fallback) are defined in public/_redirects,
+# which Vite copies into the publish directory at build time.
