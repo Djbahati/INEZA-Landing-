@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+  <url>
+    <loc>https://ineza.health/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ineza.health/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ineza.health/" />
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ineza.health/images/showcase-clinic.jpg</image:loc>
+      <image:title>A nurse reviewing the INEZA AI command center on a tablet in a modern hospital ward</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ineza.health/images/avatar-aline.jpg</image:loc>
+      <image:title>Dr. Aline Uwase — Chief Medical Information Officer, Meridian Health</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ineza.health/images/avatar-james.jpg</image:loc>
+      <image:title>James Okonkwo — Director of Nursing, St. Aurelia Hospital</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ineza.health/images/avatar-sofia.jpg</image:loc>
+      <image:title>Dr. Sofia Marchetti — Chief Operating Officer, Aurora Rehab Network</image:title>
+    </image:image>
+  </url>
+</urlset>

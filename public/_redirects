@@ -1,0 +1,6 @@
+# Netlify-style redirects — INEZA AI SYSTEM
+# Canonical host: force www -> apex (HTTPS is enforced by the platform)
+https://www.ineza.health/* https://ineza.health/:splat 301!
+
+# SPA fallback
+/* /index.html 200

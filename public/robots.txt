@@ -1,0 +1,6 @@
+# robots.txt — INEZA AI SYSTEM · https://ineza.health
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://ineza.health/sitemap.xml
